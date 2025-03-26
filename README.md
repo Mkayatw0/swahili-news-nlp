@@ -86,3 +86,12 @@ burudani (entertainment)
 afya (health)
 
 To achieve this, we will preprocess the text data to remove noise, tokenize, and normalize the text, followed by building a classification model. To ensure a clear, reproducible, and scalable approach, we will implement the preprocessing steps within an Scikit-learn Pipeline.
+
+## Modeling  
+
+- We have trained several machine learning models: **Naive Bayes, Logistic Regression, Linear SVC, and Random Forest**.  
+- Due to the complexity of our data, our machine learning models were all **overfitting**.  
+- We have applied **SVD**, but it yielded **no significant results**.  
+- We hyperparameter-tuned **Naive Bayes, Logistic Regression, and Linear SVC** and attempted **ensembling**, but that too did not salvage the models.  
+
+Refer to the main notebook for more details.  
